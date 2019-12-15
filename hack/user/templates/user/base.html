@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HackOff</title>
+</head>
+<body>
+	<h1 align="center">Summarizer</h1>
+	<form method="POST" enctype="multipart/form-data" >
+		{% csrf_token %}
+		<input type="file" id="myfile" name="myfile" >
+		<br><br>
+		<input id="submit" type="submit" value="Upload file" />
+		<button type="submit"><a href="{% url 'full' %}">Summary</a></button>
+		<button type="submit"><a href="{% url 'keywords' %}">Search By Keyword</a></button>
+	</form>
+
+</body>
+</html>
