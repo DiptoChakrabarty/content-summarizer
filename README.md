@@ -16,3 +16,5 @@
 - The application can be used for any text documents to obtain the most important sentences that the user must focus on
 
 
+### Obtain the important parts of your document
+
